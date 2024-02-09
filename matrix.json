@@ -1,5 +1,5 @@
 {
-  "versions": [
+  "node-version": [
     "lts",
     "20",
     "18",
