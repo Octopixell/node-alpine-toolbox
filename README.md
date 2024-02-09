@@ -6,7 +6,7 @@
 
 ## Why
 
-Alpine [node](https://hub.docker.com/_/node?tab=tags) Docker images do not provide tooling such as `git` or `openssh`. I often found myself in need of those applications so I created a new base image that provides these tools by default while still enjoying the Alpine flavour.
+Alpine [node](https://hub.docker.com/_/node/tags?page=1&name=alpine) Docker images do not provide tooling such as `git` or `openssh`. I often found myself in need of those applications so I created a new base image that provides these tools by default while still enjoying the Alpine flavour.
 
 ### Installed tools/applications
 
@@ -22,9 +22,9 @@ The following are installed using the package manager:
 These images support the same platformas as the node:alpine images:
 
 ```bash
-$ docker run --rm mplatform/mquery octopixell/node-alpine-toolbox:node-lts                                     
+$ docker run --rm mplatform/mquery octopixell/node-alpine-toolbox:node-lts
 Image: octopixell/node-alpine-toolbox:node-lts
- * Manifest List: Yes (Image type: application/vnd.oci.image.index.v1+json)
+ * Manifest List: Yes (Image type: application/vnd.docker.distribution.manifest.list.v2+json)
  * Supported platforms:
    - linux/amd64
    - linux/arm/v6
@@ -36,7 +36,9 @@ Image: octopixell/node-alpine-toolbox:node-lts
 
 ### Available tags
 
-- `node-16`
-- `node-18`
-- `node-20`
-- `node-lts`
+| Tag | Base Image |
+| --- | ---------- |
+| `node-16` | `node:16-alpine` |
+| `node-18` | `node:18-alpine` |
+| `node-20` | `node:20-alpine` |
+| `node-lts` | `node:lts-alpine` |
