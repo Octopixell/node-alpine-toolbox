@@ -38,7 +38,7 @@ jobs:
         id: docker-tag
         with: 
           result-encoding: string
-          script: return "octopixell/node-alpine-toolbox:${{ matrix.node-version }}"
+          script: return "octopixell/node-alpine-toolbox:node-${{ matrix.node-version }}"
       - uses: docker/setup-qemu-action@v3
       - uses: docker/setup-buildx-action@v3
       - name: Login to Docker Hub
