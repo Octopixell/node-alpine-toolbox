@@ -1,0 +1,34 @@
+name: 'Build and publish'
+
+on: 
+  push:
+    branches:
+      - main
+    paths-ignore: 
+      - '**.md'
+  pull_request:
+    paths-ignore: 
+      - '**.md'
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set matrix data
+        id: set-matrix
+        run: echo "matrix=$(jq -c . .versions < ./versions.json)" >> $GITHUB_OUTPUT
+  print:
+    runs-on: ubuntu-latest
+    needs: configure
+    strategy:
+      matrix: ${{ fromJson(needs.configure.outputs.matrix) }}
+    steps:
+      - run: echo ${{ matrix }}
