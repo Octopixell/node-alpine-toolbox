@@ -45,6 +45,7 @@ jobs:
           push: false
           load: true
           context: .
+          build-args: "NODE_VERSION=${{ matrix }}"
           file: Dockerfile
           tags: ${{ env.NAT_DOCKER_TAG }}
       - name: Test NPM
