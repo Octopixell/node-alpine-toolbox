@@ -2,7 +2,9 @@
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/octopixell/node-alpine-toolbox/.github%2Fworkflows%2Fbuild-and-publish.yml)
 ![Docker Pulls](https://img.shields.io/docker/pulls/octopixell/node-alpine-toolbox)
+![Docker Image Size](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox)
 ![GitHub License](https://img.shields.io/github/license/octopixell/node-alpine-toolbox)
+
 
 ## Why
 
@@ -34,11 +36,11 @@ Image: octopixell/node-alpine-toolbox:node-lts
    - linux/s390x
 ```
 
-### Available tags
+### Available image tags
 
-| Tag | Base Image |
-| --- | ---------- |
-| `node-16` | `node:16-alpine` |
-| `node-18` | `node:18-alpine` |
-| `node-20` | `node:20-alpine` |
-| `node-lts` | `node:lts-alpine` |
+| Tag | Base Image | Image size |
+| --- | ---------- | ---------- |
+| `node-16` | `node:16-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-16) |
+| `node-18` | `node:18-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-18) |
+| `node-20` | `node:20-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-20) |
+| `node-lts` | `node:lts-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-lts) |
