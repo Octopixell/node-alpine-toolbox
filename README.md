@@ -42,4 +42,5 @@ Image: octopixell/node-alpine-toolbox:node-lts (digest: sha256:dcfec08c45ba4a9e8
 | `node-16` | `node:16-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-16) |
 | `node-18` | `node:18-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-18) |
 | `node-20` | `node:20-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-20) |
+| `node-22` | `node:22-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-22) |
 | `node-lts` | `node:lts-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-lts) |
