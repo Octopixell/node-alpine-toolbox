@@ -21,7 +21,7 @@ The following are installed using the package manager:
 
 ### Supported platforms
 
-These images support the same platformas as the node:alpine images:
+These images support the same platforms as as the node:alpine images:
 
 ```bash
 $ docker run --rm mplatform/mquery octopixell/node-alpine-toolbox:node-lts
