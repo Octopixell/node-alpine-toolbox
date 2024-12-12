@@ -25,14 +25,13 @@ These images support the same platformas as the node:alpine images:
 
 ```bash
 $ docker run --rm mplatform/mquery octopixell/node-alpine-toolbox:node-lts
-Image: octopixell/node-alpine-toolbox:node-lts
+Image: octopixell/node-alpine-toolbox:node-lts (digest: sha256:dcfec08c45ba4a9e8329bd6a466aeda24dcc3141fa24bd6f46167c53c79b336c)
  * Manifest List: Yes (Image type: application/vnd.docker.distribution.manifest.list.v2+json)
  * Supported platforms:
    - linux/amd64
    - linux/arm/v6
    - linux/arm/v7
    - linux/arm64
-   - linux/ppc64le
    - linux/s390x
 ```
 
