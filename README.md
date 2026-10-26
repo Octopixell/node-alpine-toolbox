@@ -5,7 +5,6 @@
 ![Docker Image Size](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox)
 ![GitHub License](https://img.shields.io/github/license/octopixell/node-alpine-toolbox)
 
-
 ## Why
 
 Alpine [node](https://hub.docker.com/_/node/tags?page=1&name=alpine) Docker images do not provide tooling such as `git` or `openssh`. I often found myself in need of those applications so I created a new base image that provides these tools by default while still enjoying the Alpine flavour.
@@ -37,10 +36,11 @@ Image: octopixell/node-alpine-toolbox:node-lts (digest: sha256:dcfec08c45ba4a9e8
 
 ### Available image tags
 
-| Tag | Base Image | Image size |
-| --- | ---------- | ---------- |
-| `node-16` | `node:16-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-16) |
-| `node-18` | `node:18-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-18) |
-| `node-20` | `node:20-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-20) |
-| `node-22` | `node:22-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-22) |
+| Tag        | Base Image        | Image size                                                                                                   |
+| ---------- | ----------------- | ------------------------------------------------------------------------------------------------------------ |
+| `node-16`  | `node:16-alpine`  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-16)  |
+| `node-18`  | `node:18-alpine`  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-18)  |
+| `node-20`  | `node:20-alpine`  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-20)  |
+| `node-22`  | `node:22-alpine`  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-22)  |
+| `node-24`  | `node:24-alpine`  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-24)  |
 | `node-lts` | `node:lts-alpine` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/octopixell/node-alpine-toolbox/node-lts) |
